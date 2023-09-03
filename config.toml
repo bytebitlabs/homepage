@@ -19,11 +19,8 @@ googleAnalytics = "" # if needed...
 
 # these items will be rendered 1. into a tooltip in the navbar and 2. into the footer - consider that there's limited space when adding more items -> see ./layouts/partials
 [[params.social]]
-    title = "X"
-    url = "https://x.com/bytebitlabs"
-[[params.social]]
     title = "Email"
     url = "mailto://hello@bytebitlabs.com"
 [[params.social]]
     title = "LinkedIn"
-    url = "https://linkedin.com/bytebitlabs"
+    url = "https://linkedin.com/company/bytebitlabs"
