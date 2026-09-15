@@ -1,0 +1,32 @@
+export function PixelLogo({ size = 28 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 48 48"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      shapeRendering="crispEdges"
+      className="shrink-0"
+      aria-hidden="true"
+    >
+      <rect width="48" height="48" rx="8" fill="#0c0d10" className="dark:fill-[#0c0d10] fill-[#181a20]" />
+      <rect x="1" y="1" width="46" height="46" rx="7" stroke="#27272a" strokeWidth="2" />
+      {/* 8-bit pixel 'B' grid matrix */}
+      {/* Spine */}
+      <rect x="10" y="10" width="6" height="28" fill="#e4e4e7" />
+      {/* Top bar */}
+      <rect x="16" y="10" width="14" height="6" fill="#e4e4e7" />
+      {/* Mid bar */}
+      <rect x="16" y="21" width="12" height="6" fill="#10b981" />
+      {/* Bottom bar */}
+      <rect x="16" y="32" width="14" height="6" fill="#e4e4e7" />
+      {/* Right upper block */}
+      <rect x="30" y="14" width="6" height="9" fill="#e4e4e7" />
+      {/* Right lower block */}
+      <rect x="30" y="25" width="6" height="9" fill="#10b981" />
+      {/* Pixel accent pip in corner */}
+      <rect x="38" y="8" width="4" height="4" fill="#34d399" />
+    </svg>
+  )
+}
