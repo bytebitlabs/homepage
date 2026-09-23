@@ -19,10 +19,10 @@ const stages: Record<number, StageDetail> = {
   },
   2: {
     title: "[02 / HARNESS]",
-    subtitle: "RingFrame Bound",
+    subtitle: "Harness Bound",
     description: "Contextual shaping, structural constraints, and focus calibration tailored to your harness.",
     signal: "HARNESS_BOUND",
-    inspectorNote: "STAGE 02 SELECTED // RingFrame structures the execution boundary and intent alignment.",
+    inspectorNote: "STAGE 02 SELECTED // The harness structures the execution boundary and intent alignment.",
   },
   3: {
     title: "[03 / OUTCOME]",
@@ -63,7 +63,7 @@ export function Portfolio() {
             <span className="text-[var(--accent-emerald)]">[ PRODUCT // HARNESS ]</span>
           </div>
           <div className="text-[var(--text-muted)]">
-            DEPLOYMENT: RINGFRAME
+            DEPLOYMENT: FAB7
           </div>
         </div>
 
@@ -71,7 +71,7 @@ export function Portfolio() {
           {/* Title & Tagline */}
           <div className="space-y-2">
             <h3 className="font-display text-2xl sm:text-3xl lg:text-4xl text-[var(--text-primary)] font-semibold tracking-tight">
-              Fab7: RingFrame
+              Fab7
             </h3>
             <p className="font-display text-lg sm:text-xl text-[var(--accent-emerald)] font-medium tracking-wide">
               Smart harness. Intent that fits.
@@ -151,7 +151,7 @@ export function Portfolio() {
               <ArrowUpRight size={14} aria-hidden="true" />
             </a>
             <a
-              href="https://github.com/bytebitlabs"
+              href="https://github.com/fab7hq"
               target="_blank"
               rel="noopener noreferrer"
               className="pixel-btn-secondary px-6 py-3 font-mono text-xs uppercase tracking-wider font-semibold flex items-center gap-2"
